@@ -5,8 +5,9 @@
 
 
 
-| Raspberry Pi | Modelo A ![modela](images/modela.jpg)   | Modelo A+ |
-| ---- | ---- | ---- |
+| Raspberry Pi | Modelo A    | Modelo A+ |
+| ---- | :----: | ---- |
+|  | ![modeloA](images/modela.jpg) | ![modeloA+](images/modeloa.jpg)|
 | Fecha de lanzamiento | Febrero 2013 | Noviembre 2014 |
 | Precio | US$25 | US$20 |
 | SoC (Sistema-en-Chip) | Broadcom BCM2835 | Broadcom BCM2835 |

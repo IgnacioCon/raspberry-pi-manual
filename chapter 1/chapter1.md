@@ -6,7 +6,7 @@
 
 
 | Raspberry Pi | Modelo A    | Modelo A+ |
-| ---- | :----: | ---- |
+| ---- | :----: | :----: |
 |  | ![modeloA](images/modela.jpg) | ![modeloA+](images/modeloa.jpg)|
 | Fecha de lanzamiento | Febrero 2013 | Noviembre 2014 |
 | Precio | US$25 | US$20 |

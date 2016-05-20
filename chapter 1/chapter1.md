@@ -1,4 +1,4 @@
-# Introducción
+# Introducción a la Raspberry Pi
 
 
 ## Primera generación

@@ -19,7 +19,7 @@
 | GPIO | 26 | 40 |
 | Almacenamiento| Tarjeta SD | Tarjeta MicroSD|
 | Video | HDMI, video compuesto via toma RCA| HDMI, video compuesto via toma TRRS 3.5 mm|
-| Audio | Audio digital via HDMI, Audio analogo via toma de telefono 3.5 mm | |
+| Audio | Audio digital via HDMI, Audio analogo via toma de telefono 3.5 mm | igual que el Modelo A |
 | USB 2.0 | 1 | 1 |
 | Tamaño | 85x56mm | 65x56mm |
 

@@ -39,7 +39,10 @@ Raspberry Pi utiliza dos tipos de memoria, memoria dinámica de acceso aleatorio
 
 
 
-
+## Protocolos de serie que utiliza Raspberry Pi
+* Serial Peripheral Interface (SPI, Interfaz Periférica Serial)
+* Inter-Integrated Circuit (I2C)
+* Universal Asynchronous Receiver Transmitter (UART, Receptor-Transmisor Asíncrono Universal)
 
 
 ## Primera generación

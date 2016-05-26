@@ -12,7 +12,7 @@ Una decisión clave en el diseño que permitió mantener el costo bajo fue utili
 #### Raspberry Pi 1
 El sistema en un chip de los primeros modelos de la Raspberry Pi utilizó el Broadcom BCM2835 como su microprocesador y su unidad de procesamiento de gráficos (graphics procressing unit, GPU por sus siglas en ingles).   El BCM2835 está compuesto de un microprocesador ARM1176JZF-S que trabaja a 700 MHz y un Broadcom VideoCore® IV GPU.   El BCM2835 está diseñado para aplicaciones móviles y es por eso que requiere operar con poder mínimo para poder extender la vida de la batería.  EL BCM2835 opera a 700 MHz, una velocidad baja de reloj para un microprocesador que permite reducir el consumo de energía.  Una velocidad baja de reloj también le permite a la raspberry pi operar a voltaje bajo disminuyendo el calor generado y extendiendo la vida del chip.  Se puede incrementar la velocidad, con un proceso llamado “overclocking”, esto le da un rendimiento superior pero con el riesgo de que el microprocesador se vuelva operacionalmente inestable y reduce la vida del chip.  
 
-Para el procesador gráfico el BCM2835 utiliza el Broadcom VideoCore IV GPU el cual se encarga del procesamiento de audio y video.  Este GPU apoya directamente el estándar OpenGL ES 2.0 que es capaz de trabajar en hardware embebido, el cual en este caso es el Broadcom 2835.  Puede desplegar gráficos en tres dimensiones y tiene todo lo necesario para juegos modernos y video de alta definición (HD, high definición por sus siglas en ingles).  Implementa en hardware un H.264 códec requerido para HD que produce una definición de 1080p a 30 cuadros/segundo.
+Para el procesador gráfico el BCM2835 utiliza el Broadcom VideoCore IV GPU el cual se encarga del procesamiento de audio y video.  Este GPU apoya directamente el estándar OpenGL ES 2.0 que es capaz de trabajar en hardware embebido, el cual en este caso es el Broadcom 2835.  Puede mostrar gráficos en tres dimensiones y tiene todo lo necesario para juegos modernos y video de alta definición (HD, high definición por sus siglas en ingles).  Implementa en hardware un H.264 códec requerido para HD que produce una definición de 1080p a 30 cuadros/segundo.
 
 #### Raspberry Pi 2 y Raspberry Pi 3
 
@@ -23,6 +23,24 @@ Para la raspberry pi 2 el sistema en un chip utiliza el Broadcom 2836.  La arqui
 ## Memoria
 
 Raspberry Pi utiliza dos tipos de memoria, memoria dinámica de acceso aleatorio (dynamic random access memory o DRAM) y MicroSD (Secure Digital).  En los primeros modelos A y B de la raspberry pi 1 se utilizaban tarjetas SD en los modelos posteriores, A+, B+ y raspberry pi 2 y 3 se cambió a MicroSD.  La memoria DRAM en el modelo A era de 256 MB, los modelos A+, B, y B+ contaban con una memoria de 512 MB. La raspberry pi 2 y 3 tienen 1 GB de memoria.  El sistema operativo de la raspberry pi es guardado en la MicroSD o tarjeta SD dependiendo del modelo.  Ahí también se guarda todos los programas e información relacionada con la raspberry pi.  Esta memoria es utilizada como una computadora de escritorio utiliza un disco duro, para guardar información y programas que se utilicen.  
+
+
+## Conexiones 
+
+* Poder
+* HDMI
+* USB 2.0
+* Ethernet (excepto los modelos A y A+)
+* GPIO
+* SD/MicroSD slot (dependiendo el modelo)
+* Camera 
+* Monitor
+* Audio
+
+
+
+
+
 
 ## Primera generación
 

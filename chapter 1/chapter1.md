@@ -1,4 +1,4 @@
-# Introducción a la Raspberry Pi
+# Capitulo 1: Introducción
 
 ## Proyecto Raspberry Pi
 En el año 2006 el Dr. Eben Upton hizo una observación acerca de los estudiantes que ingresaban a la carrera de ciencias de la computación, con cada generación nueva el conocimiento sobre temas de computación disminuía.  El llego a la conclusión que esto podría ser por el alto costo de las computadoras.  Así que junto con sus colegas en el Laboratorio de Computo de la Universidad de Cambridge en Cambridge, Inglaterra crearon la Fundación Raspberry Pi (The Raspberry Pi Foundation, www.raspberrypi.org).  El propósito principal de la fundación fue crear una computadora barata a la que personas de bajos recursos pudieran tener acceso.  Ellos creían que el alto costo de las computadoras era un impedimento para que los padres les pudieran comprar una y así aprender.  Eliminando el alto costo lograría que los estudiantes lograran tener una computadora con cual experimentar, crear y aprender a programar sin la preocupación de arruinar una computadora de alto precio.  
@@ -54,8 +54,8 @@ Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo 
 
 
 
-
-## Primera generación
+##Comparacion de las diferentes versiones de Raspberry Pi 
+### Primera generación
 
 ######Tabla 1.1 Raspberry Pi 1 Modelo A y Modelo A+
 
@@ -100,7 +100,7 @@ Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo 
 | Tamaño | 85x56mm | 85x56mm |
 
 
-## Segunda generación
+### Segunda generación
 ######Tabla 1.3 Raspberry Pi 2 y Raspberry Pi 3
 | Version | Raspberry Pi 2  | Raspberry Pi 3 |
 | ---- | :----: | :----: |

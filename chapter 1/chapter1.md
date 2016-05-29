@@ -48,8 +48,11 @@ Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo 
 
 ## Protocolos seriales que utiliza Raspberry Pi
 * Serial Peripheral Interface (SPI, Interfaz Periférica Serial)
-* Inter-Integrated Circuit (I2C)
+  * Es un enlace sincrónico de serie de datos.   Ocupa una señal de reloj ya que es sincrónico.  Es un protocolo dúplex completo lo que significa que puede mandar y recibir información simultáneamente del maestro (anfitrión) y del esclavo
+* Inter-Integrated Circuit (I2C, circuito inter-integrado)
+  * Este protocolo también es un enlace sincrónico de serie de datos.  El protocolo I2C soporta más de un maestro y múltiples esclavos.
 * Universal Asynchronous Receiver Transmitter (UART, Receptor-Transmisor Asíncrono Universal)
+  * El protocolo UART no requiere de una señal de reloj.  La Raspberry Pi transmite información en el pin con el nombre TXD0 y recibe en el pin con el nombre RXD0.  Como este protocolo es utilizada para la comunicación de datos y no para controlar, no cuenta con el concepto de maestro-esclavo como los protocolos SPI e I2C.  
 
 
 

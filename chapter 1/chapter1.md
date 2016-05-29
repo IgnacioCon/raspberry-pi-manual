@@ -39,8 +39,8 @@ Raspberry Pi utiliza dos tipos de memoria, memoria dinámica de acceso aleatorio
 
 Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo B+.  En la figura 1.1 se muestra dónde quedan los puertos y conexiones importantes del Modelo B+.
 
-[figura1.1](images/fig11.jpg)
-
+![figura1.1](images/fig11.jpg)
+  
 
 ## Protocolos seriales que utiliza Raspberry Pi
 * Serial Peripheral Interface (SPI, Interfaz Periférica Serial)
@@ -59,7 +59,7 @@ Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo 
 | Precio | US$25 | US$20 |
 | SoC (Sistema-en-Chip) | Broadcom BCM2835 | Broadcom BCM2835 |
 | CPU | 700 MHz ARM1176JZF-S de un nucleo |  igual que el modelo A |
-| GPU | Broadcom VideoCore IV @ 250 MHz (BCM2837: parte 3D del GPU @ 300 MHz, parte de video del GPU @ 400 MHz);  OpenGL ES 2.0 (BCM2835, BCM2836: 24 GFLOPS / BCM2837: 28.8 GFLOPS) MPEG-2 y VC-1 (con licensia); 1080p30 H.264/MPEG-4 AVC decodificador y encodificador de alto perfil (BCM2837: 1080p60) | igual que el modelo A |
+| GPU | Broadcom VideoCore IV @ 250 MHz, OpenGL ES 2.0, MPEG-2 y VC-1 (con licensia); 1080p30 H.264/MPEG-4 AVC decodificador y encodificador de alto perfil  | igual que el modelo A |
 | Memoria (SDRAM) | 256 MB @ 400MHz(compartida con GPU)| 512 MB @ 400MHz (compartida con GPU) a partir de mayo de 2016, los modelos iniciales eran frabicadas con 256 MB (compartida con GPU) |
 | Voltaje y Poder | 600mA @ 5V | 600mA @ 5V |
 | Fuente de poder | 5V via MicroUSB | 5V via MicroUSB |
@@ -81,7 +81,7 @@ Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo 
 | Precio | US$35 | US$25 |
 | SoC (Sistema-en-Chip) | Broadcom BCM2835 | Broadcom BCM2835 |
 | CPU | 700 MHz ARM1176JZF-S de un nucleo |  igual que el modelo B |
-| GPU | Broadcom VideoCore IV @ 250 MHz (BCM2837: parte 3D del GPU @ 300 MHz, parte de video del GPU @ 400 MHz);  OpenGL ES 2.0 (BCM2835, BCM2836: 24 GFLOPS / BCM2837: 28.8 GFLOPS) MPEG-2 y VC-1 (con licensia); 1080p30 H.264/MPEG-4 AVC decodificador y encodificador de alto perfil (BCM2837: 1080p60) | igual que el modelo B |
+| GPU | Broadcom VideoCore IV @ 250 MHz, OpenGL ES 2.0, MPEG-2 y VC-1 (con licensia); 1080p30 H.264/MPEG-4 AVC decodificador y encodificador de alto perfil | igual que el modelo B |
 | Memoria (SDRAM) | 512 MB @ 400MHz(compartida con GPU)| 512 MB @ 400MHz (compartida con GPU)|
 | Voltaje y Poder | 600mA @ 5V | 600mA @ 5V |
 | Fuente de poder | 5V via MicroUSB | 5V via MicroUSB |
@@ -102,7 +102,7 @@ Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo 
 | Precio | US$35 | US$35 |
 | SoC (Sistema-en-Chip) | Broadcom BCM2836 | Broadcom BCM2837 |
 | CPU | 900 MHz 32-bits ARM Cortex-A7 de cuatro nucleos | 1.2 GHz 64-bits ARM Cortex-A53 de cuatro nucleos |
-| GPU | Broadcom VideoCore IV @ 250 MHz (BCM2837: parte 3D del GPU @ 300 MHz, parte de video del GPU @ 400 MHz);  OpenGL ES 2.0 (BCM2835, BCM2836: 24 GFLOPS / BCM2837: 28.8 GFLOPS) MPEG-2 y VC-1 (con licensia); 1080p30 H.264/MPEG-4 AVC decodificador y encodificador de alto perfil (BCM2837: 1080p60) | igual que la Raspberry Pi 2 |
+| GPU | Broadcom VideoCore IV @ 250 MHz (BCM2837: parte 3D del GPU @ 300 MHz, parte de video del GPU @ 400 MHz);  OpenGL ES 2.0 24 GFLOPS MPEG-2 y VC-1 (con licensia); 1080p30 H.264/MPEG-4 AVC decodificador y encodificador de alto perfil | Broadcom VideoCore IV parte 3D del GPU @ 300 MHz, parte de video del GPU @ 400 MHz; OpenGL ES 2.0 28.8 GFLOPS,  1080p 60cuadros/segundo H.264/MPEG-4 AVC decodificador y encodificador de alto perfil |
 | Memoria (SDRAM) | 1 GB(compartida con GPU)| 1 GB(compartida con GPU)|
 | Voltaje y Poder | 650mA @ 5V | 800mA @ 5V |
 | Fuente de poder | 5V via MicroUSB | 5V via MicroUSB |

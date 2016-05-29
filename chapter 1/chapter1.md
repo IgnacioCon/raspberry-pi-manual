@@ -27,20 +27,24 @@ Raspberry Pi utiliza dos tipos de memoria, memoria dinámica de acceso aleatorio
 
 ## Conexiones 
 
-* Poder
-* HDMI
-* USB 2.0
-* Ethernet (excepto los modelos A y A+)
-* GPIO
+* MicroUSB 5V Poder
+* Salida HDMI
+* 4 Puertos USB 2.0
+* Puerto Ethernet (excepto los modelos A y A+)
+* GPIO 40 Pines
 * SD/MicroSD slot (dependiendo el modelo
-* Camera 
-* Monitor
-* Audio
+* Conector para Camara CSI 
+* Conector para Monitor DSI
+* Conector de Video/Audio Stereo
 
 Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo B+.  En la figura 1.1 se muestra dónde quedan los puertos y conexiones importantes del Modelo B+.
 
 ![figura1.1](images/fig11.jpg)
-  
+######Figura 1.1 Conexiones y puertos Raspberry Pi 1 Modelo B+  
+
+
+
+
 
 ## Protocolos seriales que utiliza Raspberry Pi
 * Serial Peripheral Interface (SPI, Interfaz Periférica Serial)
@@ -48,9 +52,12 @@ Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo 
 * Universal Asynchronous Receiver Transmitter (UART, Receptor-Transmisor Asíncrono Universal)
 
 
+
+
+
 ## Primera generación
 
-
+######Tabla 1.1 Raspberry Pi 1 Modelo A y Modelo A+
 
 | Raspberry Pi | Modelo A    | Modelo A+ |
 | ---- | :----: | :----: |
@@ -70,9 +77,9 @@ Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo 
 | USB 2.0 | 1 | 1 |
 | Tamaño | 85x56mm | 65x56mm |
 
-
-
-
+ 
+  
+######Tabla 1.2 Raspberry Pi 1 Modelo B y Modelo B+
 
 | Raspberry Pi | Modelo B    | Modelo B+ |
 | ---- | :----: | :----: |
@@ -81,7 +88,7 @@ Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo 
 | Precio | US$35 | US$25 |
 | SoC (Sistema-en-Chip) | Broadcom BCM2835 | Broadcom BCM2835 |
 | CPU | 700 MHz ARM1176JZF-S de un nucleo |  igual que el modelo B |
-| GPU | Broadcom VideoCore IV @ 250 MHz, OpenGL ES 2.0, MPEG-2 y VC-1 (con licensia); 1080p30 H.264/MPEG-4 AVC decodificador y encodificador de alto perfil | igual que el modelo B |
+| GPU | Broadcom VideoCore IV @ 250 MHz, OpenGL ES 2.0, 1080p30 H.264/MPEG-4 AVC decodificador y encodificador de alto perfil | igual que el modelo B |
 | Memoria (SDRAM) | 512 MB @ 400MHz(compartida con GPU)| 512 MB @ 400MHz (compartida con GPU)|
 | Voltaje y Poder | 600mA @ 5V | 600mA @ 5V |
 | Fuente de poder | 5V via MicroUSB | 5V via MicroUSB |
@@ -94,7 +101,7 @@ Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo 
 
 
 ## Segunda generación
-
+######Tabla 1.3 Raspberry Pi 2 y Raspberry Pi 3
 | Version | Raspberry Pi 2  | Raspberry Pi 3 |
 | ---- | :----: | :----: |
 |  | ![Raspberry Pi 2](images/rasp2.jpg)|![Raspberry Pi 3](images/rasp3.jpg) |

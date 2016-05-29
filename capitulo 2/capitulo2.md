@@ -13,3 +13,6 @@ En la página de descargas existen otros sistemas operativos para Raspberry Pi. 
 
 ## 2.3 Cargar un sistema operativo a una tarjeta SD en Windows
 
+ 
+
+#### 2.3.1  Descargar Win32 Disk Imager

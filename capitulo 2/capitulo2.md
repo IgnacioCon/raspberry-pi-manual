@@ -10,8 +10,6 @@ Un sistema operativo es un conjunto de programas básicos y utilidades que hacen
 Raspbian es un sistema operativo libre basado en Debian y optimizado para Raspberry Pi.  Raspbian aporta más que un simple sistema operativo, cuenta con más de 35,000 paquetes, software pre-compilado empaquetado en un formato facial de instalar en la Raspberry Pi.  La primera versión con más de 35,000 paquetes optimizada para tener mejor rendimiento con la arquitectura de Raspberry Pi fue completada en junio de 2012.  A pesar de esto Raspbian aún sigue bajo desarrollo activo con un énfasis en mejorar la estabilidad y rendimiento de todos los paquetes de Debian posibles.  Es importante notar que Raspbian no está afiliado con la Fundación Raspberry Pi.  Raspbian fue creado por un pequeño pero dedicado equipo de desarrolladores que son fans de la arquitectura Raspberry Pi, las metas educativas de la fundación y el proyecto Debian. Raspbian es el sistema operativo que se utilizara en este manual.
 
 En la página de descargas existen otros sistemas operativos para Raspberry Pi.  Algunos de estos sistemas fueron creados para cumplir ciertas tareas.  Por ejemplo OpenElec es utilizada como un centro de entretenimiento.  Weather Station es un sistema para crear una estación para vigilar el clima.  Estos son algunos ejemplos de sistemas operativos que la comunidad y otras compañías han desarrollado para Raspberry Pi.
-## 2.3 Otros sistemas operativos
 
-
-## Cargar un sistema operativo a una tarjeta SD
+## 2.3 Cargar un sistema operativo a una tarjeta SD en Windows
 

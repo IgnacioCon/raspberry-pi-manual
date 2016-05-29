@@ -1,6 +1,6 @@
 # Capitulo 1: Introducción
 
-## 1.1 Proyecto Raspberry Pi {#ProyectoRaspberryPi}
+## 1.1 Proyecto Raspberry Pi {#id}
 En el año 2006 el Dr. Eben Upton hizo una observación acerca de los estudiantes que ingresaban a la carrera de ciencias de la computación, con cada generación nueva el conocimiento sobre temas de computación disminuía.  El llego a la conclusión que esto podría ser por el alto costo de las computadoras.  Así que junto con sus colegas en el Laboratorio de Computo de la Universidad de Cambridge en Cambridge, Inglaterra crearon la Fundación Raspberry Pi (The Raspberry Pi Foundation, www.raspberrypi.org).  El propósito principal de la fundación fue crear una computadora barata a la que personas de bajos recursos pudieran tener acceso.  Ellos creían que el alto costo de las computadoras era un impedimento para que los padres les pudieran comprar una y así aprender.  Eliminando el alto costo lograría que los estudiantes lograran tener una computadora con cual experimentar, crear y aprender a programar sin la preocupación de arruinar una computadora de alto precio.  
 
 El éxito de la Fundación Raspberry Pi ha sido abrumador.  Las primeras versiones de la Raspberry Pi fueron vendidas en el año 2012.  En su primer año vendieron se vendieron más de las 10,000 unidades estimadas y desde entonces ha sido todo un éxito.  La Fundación anuncio en Febrero de 2016  que habían vendido más de 8 millones de unidades convirtiéndola en la computadora más vendida en Inglaterra.

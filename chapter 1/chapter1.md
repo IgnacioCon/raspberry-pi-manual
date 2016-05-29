@@ -32,14 +32,17 @@ Raspberry Pi utiliza dos tipos de memoria, memoria dinámica de acceso aleatorio
 * USB 2.0
 * Ethernet (excepto los modelos A y A+)
 * GPIO
-* SD/MicroSD slot (dependiendo el modelo)
+* SD/MicroSD slot (dependiendo el modelo
 * Camera 
 * Monitor
 * Audio
 
+Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo B+.  En la figura 1.1 se muestra dónde quedan los puertos y conexiones importantes del Modelo B+.
+
+[figura1.1](images/fig11.jpg)
 
 
-## Protocolos de serie que utiliza Raspberry Pi
+## Protocolos seriales que utiliza Raspberry Pi
 * Serial Peripheral Interface (SPI, Interfaz Periférica Serial)
 * Inter-Integrated Circuit (I2C)
 * Universal Asynchronous Receiver Transmitter (UART, Receptor-Transmisor Asíncrono Universal)

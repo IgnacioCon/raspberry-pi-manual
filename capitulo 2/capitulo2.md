@@ -55,3 +55,12 @@ Una vez completado el proceso de escritura el programa muestra un mensaje que se
 
 ![figura2.5](images/fig25.jpg)
 ###### Figura 2.5 Imagen grabada sin ningun error.
+
+## 2.4 Grabar sistema operativo a una tarjeta SD en Linux
+
+
+#### 2.4.1 Descargar imagen del sistema operativo
+
+El primer paso es descargar la imagen del sistema operativo deseado.  Se descomprime la carpeta descargada y se obtiene el archivo con extensión  “.img” que será grabado en la tarjeta SD.   
+
+#### 2.4.2

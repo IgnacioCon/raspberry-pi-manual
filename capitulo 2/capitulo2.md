@@ -39,5 +39,14 @@ Con el programa trabajando hacer clic en el icono del folder azul.  La figura 2.
 
 El siguiente paso es seleccionar la tarjeta en donde se desea grabar.
 
+![figura2.3](images/fig23.jpg)
+###### Figura 2.3 Seleccionar tarjeta SD
+
+#### 2.3.4  Iniciar el proceso de grabar imagen en tarjeta SD
+
+Una vez que se tenga seleccionada la imagen y la tarjeta SD, el proceso se inicia al hacer clic en el botón "Write" en el programa Win32 Disk Imager.  Este proceso puede llevar varios minutos por lo que se debe tener algo de paciencia.
+
+![figura2.4](images/fig24.jpg)
+###### Figura 2.4 Iniciar proceso
 
 

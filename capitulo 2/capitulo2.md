@@ -49,4 +49,9 @@ Una vez que se tenga seleccionada la imagen y la tarjeta SD, el proceso se inici
 ![figura2.4](images/fig24.jpg)
 ###### Figura 2.4 Iniciar proceso
 
+#### 2.3.5 Proceso completo
 
+Una vez completado el proceso de escritura el programa muestra un mensaje que se escribió la imagen sin ningún error.  La tarjeta SD esta lista con el nuevo sistema operativo y ahora puede utilizar en la Raspberry Pi.
+
+![figura2.5](images/fig25.jpg)
+###### Figura 2.5 Imagen grabada sin ningun error.

@@ -29,3 +29,15 @@ En la figura 2.1 se puede ver Win32 Disk Imager una vez instalado e inicializado
 ![figura2.1](images/fig21.jpg)
 ###### Figura 2.1 Win32 Disk Imager
 
+#### 2.3.3 Seleccionar la imagen a grabar
+
+Con el programa trabajando hacer clic en el icono del folder azul.  La figura 2.2 muestra donde se debe hacer clic. En su computadora se debe explorar hasta encontrar la imagen del sistema operativo que se quiera grabar.
+![figura2.1](images/fig22.jpg)
+###### Figura 2.2 Seleccion de la imagen del sistem operativo
+
+#### 2.3.3 Seleccionar la tarjeta SD
+
+El siguiente paso es seleccionar la tarjeta en donde se desea grabar.
+
+
+

@@ -14,5 +14,18 @@ En la página de descargas existen otros sistemas operativos para Raspberry Pi. 
 ## 2.3 Cargar un sistema operativo a una tarjeta SD en Windows
 
  
+#### 2.3.1  Descargar imagen del sistema operativo
 
-#### 2.3.1  Descargar Win32 Disk Imager
+Para poder utilizar la Raspberry Pi se requiere de un sistema operativo.  El sistema operativo está guardado en una tarjeta MicroSD/SD dependiendo en cual modelo se utilice.  Para este manual se utilizara  una Rapberry Pi modelo B+ por lo cual el sistema operativo será guardado en una tarjeta MicroSD.  Se requiere de una imagen del sistema operativo del cual se quiera utilizar. En este caso usaremos la imagen de Raspbian que nos provee la página oficial de descargas de Raspberry Pi (https://www.raspberrypi.org/downloads/raspbian/).  Existen dos versiones, la versión completa y la versión lite que es más ligera ya que no contiene todos los paquetes, es una versión que solo contiene lo necesario para trabajar.  La versión que se utiliza en este manual es la versión completa que en este caso es Raspbian Jessie con la versión más reciente con fecha de 10 de mayo de 2016.
+
+#### 2.3.2  Descargar Win32 Disk Imager
+
+Para poder utilizar el sistema operativo es necesario grabar la imagen en una tarjeta MicroSD. Esto puede sonar algo trivial ya que se puede llegar a pensar que tan solo con arrastrar la imagen a la tarjeta es suficiente.  Si se hace eso el usuario se dará cuenta que no funciona.  Esto se debe a que la imagen del sistema operativo se tiene que escribir directamente bloque por bloque a la tarjeta SD. Se está creando una "imagen"  bloque por bloque, del sistema operativo así que se llevan a cabo operaciones en la memoria a un nivel más bajo.  Para esto se utilizan herramientas como Win32 Disk Imager que borra la tarjeta de todos los datos anteriores y escribe la imagen del sistema operativo, se puede descargar en https://sourceforge.net/projects/win32diskimager/ 
+
+Una vez que se tenga la descarga lista, se instala el programa para poder utilizarlo.  **Nota: el programa se debe de inicializar en modo administrador si no puede que se muestre un mensaje de error.**
+
+En la figura 2.1 se puede ver Win32 Disk Imager una vez instalado e inicializado.
+
+![figura2.1](images/fig21.jpg)
+###### Figura 2.1 Win32 Disk Imager
+

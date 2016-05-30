@@ -68,7 +68,7 @@ Con el comando:
 ```$ df h```
 Se busca donde se encuentra la tarjeta SD.
 
-Una vez que se encuentre la tarjeta sd se desmonta con el comando:
+Una vez que se encuentre la tarjeta SD se desmonta con el comando:
 ```$ unmount /dev/nombre_tarjeta```
 Donde nombre_tarjeta es el nombre que aparece en la lista que le pertenezca a la tarjeta SD donde se grabara el sistema operativo.
 
@@ -77,5 +77,14 @@ Ahora para grabar la imagen se ingresa el siguiente comando:
 
 ```$  sudo dd bs=1M if=2016-05-10-raspbian-jessie.img of=/dev/nombre_tarjeta```
 
-En unos minutos se tendra una tarjeta SD con un sistema operativo listo para trabajar.
+En unos minutos se tendrá una tarjeta SD con un sistema operativo listo para trabajar.
+
+
+## 2.5 Configurar Raspberry Pi
+
+Ahora que ya se cuenta con una tarjeta SD con un sistema operativo se puede insertar a la Raspberry Pi e iniciarla por primera vez.
+
+
+
+
 

@@ -16,11 +16,11 @@ En la página de descargas existen otros sistemas operativos para Raspberry Pi. 
  
 #### 2.3.1  Descargar imagen del sistema operativo
 
-Para poder utilizar la Raspberry Pi se requiere de un sistema operativo.  El sistema operativo está guardado en una tarjeta MicroSD/SD dependiendo en cual modelo se utilice.  Para este manual se utilizara  una Rapberry Pi modelo B+ por lo cual el sistema operativo será guardado en una tarjeta MicroSD.  Se requiere de una imagen del sistema operativo del cual se quiera utilizar. En este caso usaremos la imagen de Raspbian que nos provee la página oficial de descargas de Raspberry Pi (https://www.raspberrypi.org/downloads/raspbian/).  Existen dos versiones, la versión completa y la versión lite que es más ligera ya que no contiene todos los paquetes, es una versión que solo contiene lo necesario para trabajar.  La versión que se utiliza en este manual es la versión completa que en este caso es Raspbian Jessie con la versión más reciente con fecha de 10 de mayo de 2016.
+Para poder utilizar la Raspberry Pi se requiere de un sistema operativo.  El sistema operativo está guardado en una tarjeta MicroSD/SD dependiendo en cual modelo se utilice.  Para este manual se utilizara  una Rapberry Pi modelo B+ por lo cual el sistema operativo será guardado en una tarjeta MicroSD.  Se requiere de una imagen del sistema operativo del cual se quiera utilizar. En este caso usaremos la imagen de Raspbian que nos provee la página oficial de descargas de Raspberry Pi (https://www.raspberrypi.org/downloads/raspbian/).  Existen dos versiones, la versión completa y la versión lite que es más ligera ya que no contiene todos los paquetes, es una versión que solo contiene lo necesario para trabajar. En este manual se utiliza la versión completa que en este caso es Raspbian Jessie.
 
 #### 2.3.2  Descargar Win32 Disk Imager
 
-Para poder utilizar el sistema operativo es necesario grabar la imagen en una tarjeta MicroSD. Esto puede sonar algo trivial ya que se puede llegar a pensar que tan solo con arrastrar la imagen a la tarjeta es suficiente.  Si se hace eso el usuario se dará cuenta que no funciona.  Esto se debe a que la imagen del sistema operativo se tiene que escribir directamente bloque por bloque a la tarjeta SD. Se está creando una "imagen"  bloque por bloque, del sistema operativo así que se llevan a cabo operaciones en la memoria a un nivel más bajo.  Para esto se utilizan herramientas como Win32 Disk Imager que borra la tarjeta de todos los datos anteriores y escribe la imagen del sistema operativo, se puede descargar en https://sourceforge.net/projects/win32diskimager/ 
+Para poder utilizar el sistema operativo es necesario grabar la imagen en una tarjeta MicroSD. Esto puede sonar algo trivial ya que se puede llegar a pensar que tan solo con arrastrar la imagen a la tarjeta es suficiente.  Si se hace eso el usuario se dará cuenta que no funciona.  Esto se debe a que la imagen del sistema operativo se tiene que escribir directamente bloque por bloque a la tarjeta SD. Se está creando una "imagen"  bloque por bloque del sistema operativo así que se llevan a cabo operaciones en la memoria a un nivel más bajo.  Para esto se utilizan herramientas como Win32 Disk Imager que borra la tarjeta de todos los datos anteriores y escribe la imagen del sistema operativo, se puede descargar en https://sourceforge.net/projects/win32diskimager/ 
 
 Una vez que se tenga la descarga lista, se instala el programa para poder utilizarlo.  **Nota: el programa se debe de inicializar en modo administrador si no puede que se muestre un mensaje de error.**
 
@@ -82,9 +82,66 @@ En unos minutos se tendrá una tarjeta SD con un sistema operativo listo para tr
 
 ## 2.5 Configurar Raspberry Pi
 
-Ahora que ya se cuenta con una tarjeta SD con un sistema operativo se puede insertar a la Raspberry Pi e iniciarla por primera vez.
+Ahora que ya se cuenta con una tarjeta SD con un sistema operativo se puede insertar a la Raspberry Pi e iniciarla por primera vez.  En la figura 2.6 se puede ver el escritorio que debe aparecer una vez que se complete el proceso de arranque.  Esto significa que el sistema operativo funciona correctamente. Si es que no se llega a este escritorio significa que algo está mal y se de rectificar.
+
+![figura2.6](images/fig26.jpg)
+####### Figura 2.6 Pantalla inicial
 
 
+#### 2.5.1  Ventana de configuracion
+Lo primero que se debe hacer es configurar la Raspberry Pi.  En Raspbian Jessie el modo de configuración ha cambiado.  En versiones anteriores el sistema operativo iniciaba con una línea de comando, pidiendo usuario y contraseña para poder continuar.  Después pasaba a la pantalla donde se encontraban los atributos configurables de la Raspberry Pi.  En esta versión de Raspbian Jessie la Raspberry Pi es completamente diferente.  Esta configuración es ahora más accesible y fácil de hacer.  El menú se puede acceder en el escritorio con lo siguientes pasos.
 
+**MENU > PREFERENCES > RASPBERRY PI CONFIGURATION **
 
+![figura2.7](images/fig27.jpg)
 
+###### Figura 2.7 Selección del menu de configuración. 
+
+En la pestaña de System se encuentran las siguientes configuraciones.  
+* Filesystem
+  * Al seleccionar esta opción se permite utilizar toda la memoria disponible en la tarjeta SD.  Es muy recomendable seleccionar esta opción.
+* Password
+  * Permite cambiar la contraseña de la Raspberry Pi.  La contraseña por defecto es ```raspberry```
+* Hostname
+  * Esta opción te permite darle un nombre para identificar la Raspberry Pi en una red o cuando se quiere conectar vía SSH.
+* Boot
+  * Esta opción te permite seleccionar donde inicia el sistema.  Si es que se quiere ingresar directamente al escritorio se selecciona ```To Desktop``` para utilizarla como una computadora normal.  Para ingresar a línea de comando en vez del escritorio se selecciona ```To CLI``` (Command Line Interface, interfaz de línea de comando por sus siglas en ingles).  Esto sería para utilizarla en un proyecto donde no se requiera acceder al escritorio. 
+* Auto login
+  * Esta opción permite acceder al sistema automáticamente si no se selecciona el usuario tendría que ingresar el nombre usuario y la contraseña.  Por defecto el nombre usuario es ```pi``` y la contraseña es ```raspberry```.
+* Network at Boot
+  * Esta opción te permite entrar a una red de inicio, o esperar a que la red este lista.
+* Overscan
+  * Se puede habilitar o deshabilitar esta opción.
+* Rastrack
+  * Rastrack permite agregar la Raspberry Pi a un mapa global. Esto para ver en que partes del mundo se esta utilizando esta tecnologia.
+
+![figura2.8](images/fig28.jpg)
+###### Figura 2.8 Pestaña Interfaces
+
+En la pestaña de interfaces se puede deshabilitar o habilitar diferentes protocolos y accesorios como la camara que no funcionara si no es habilitada.
+
+![figura2.9](images/fig29.jpg)
+###### Figura 2.9 Pestaña Performance
+
+En esta pestaña se puede ocnfigurar la velocidad a que trabaja la Raspberry Pi y cuanta memoria se le permite utilizar a la GPU para mayor rendimiento.
+
+* Overclock
+  * None (700MHz) Velocidad normal.
+  * Modest (800MHz)
+  * Medium (900MHz)
+  * High (950MHz)
+  * Turbo (1000MHz)
+  * **Nota: Recuerde que incrementar la velocidad puede causar que se sobrecaliente la Raspberry Pi y puede causar que termine inservible.**
+* GPU Memory
+
+![figura2.10](images/figura210.jpg)
+###### Figura 2.10 Localización 
+En esta pestaña se pueden configurar los siguientes atributos:
+* Locale
+  * En que parte del mundo se encuentra, tambien para poder configurar el idioma.
+* Timezone
+  * La zona de tiempo en la que se ubica.
+* Keyboard
+  * Para que el teclado utilizado funcione correctamente.
+* WiFi Country
+  * Seleccionar el país donde se reside para poder acceder a WiFi.

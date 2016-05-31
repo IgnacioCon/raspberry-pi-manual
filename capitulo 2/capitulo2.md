@@ -134,7 +134,7 @@ En esta pestaña se puede ocnfigurar la velocidad a que trabaja la Raspberry Pi 
   * **Nota: Recuerde que incrementar la velocidad puede causar que se sobrecaliente la Raspberry Pi y puede causar que termine inservible.**
 * GPU Memory
 
-![figura2.10](images/figura210.jpg)
+![figura2.10](images/fig210.jpg)
 ###### Figura 2.10 Localización 
 En esta pestaña se pueden configurar los siguientes atributos:
 * Locale

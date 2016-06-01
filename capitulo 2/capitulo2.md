@@ -64,18 +64,22 @@ Una vez completado el proceso de escritura el programa muestra un mensaje que se
 El primer paso es descargar la imagen del sistema operativo deseado.  Se descomprime la carpeta descargada y se obtiene el archivo con extensión  “.img” que será grabado en la tarjeta SD.   
 
 #### 2.4.2 Desmontar tarjeta SD
-Con el comando:
-```$ df h```
-Se busca donde se encuentra la tarjeta SD.
 
-Una vez que se encuentre la tarjeta SD se desmonta con el comando:
-```$ unmount /dev/nombre_tarjeta```
-Donde nombre_tarjeta es el nombre que aparece en la lista que le pertenezca a la tarjeta SD donde se grabara el sistema operativo.
+* Se abre una terminal nueva y se ingresa el comando: ```$ df h```
+
+* Se busca donde se encuentra la tarjeta SD.
+
+* Un tip para poder localizar tu tarjeta SD es ingresar el comando: ``` $ df h``` sin la tarjeta SD en la computadora.  Aparecerá una lista con todos los dispositivos montados.  
+
+* Inserta la tarjeta SD que se vaya a utilizar. Se vuelve a ingresar el comando: ``` $ df h``` y volverá ha aparecer la lista con los dispositivos montados pero ahora estará un nuevo dispositivo, la tarjeta SD.  Localiza el nombre y guardarlo.
+
+* Una vez que se encuentre la tarjeta SD se desmonta con el comando: ``` $ unmount /dev/nombre_tarjeta``` Donde nombre_tarjeta es el nombre que aparece en la lista que le pertenezca a la tarjeta SD donde se grabara el sistema operativo.
+
 
 #### 2.4.3 Grabar imagen a tarjeta SD
-Ahora para grabar la imagen se ingresa el siguiente comando:
+Ahora para grabar la imagen se ingresa 
+el siguiente comando: ```$  sudo dd bs=1M if=2016-05-10-raspbian-jessie.img of=/dev/nombre_tarjeta```
 
-```$  sudo dd bs=1M if=2016-05-10-raspbian-jessie.img of=/dev/nombre_tarjeta```
 
 En unos minutos se tendrá una tarjeta SD con un sistema operativo listo para trabajar.
 

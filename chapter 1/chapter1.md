@@ -5,7 +5,7 @@ En el año 2006 el Dr. Eben Upton hizo una observación acerca de los estudiante
 
 El éxito de la Fundación Raspberry Pi ha sido abrumador.  Las primeras versiones de la Raspberry Pi fueron vendidas en el año 2012.  En su primer año vendieron se vendieron más de las 10,000 unidades estimadas y desde entonces ha sido todo un éxito.  La Fundación anuncio en Febrero de 2016  que habían vendido más de 8 millones de unidades convirtiéndola en la computadora más vendida en Inglaterra.
 
-Una decisión clave en el diseño que permitió mantener el costo bajo fue utilizar la tecnología de sistema en un chip (System on a Chip, SoC).  Un sistema en un chip integra el microprocesador, la memoria, y el procesador de gráficos en un tipo de “sándwich”  de silicón que en turno minimiza el espacio de la placa de circuito impreso.  La Fundación se asoció con Broadcom para utilizar sus diseños de microprocesador y el procesador de gráficos en el SoC.
+Una decisión clave en el diseño que permitió mantener el costo bajo fue utilizar la tecnología de sistema en un chip (System on a Chip. SoC por sus siglas en ingles).  Un sistema en un chip integra el microprocesador, la memoria, y el procesador de gráficos en un tipo de “sándwich”  de silicón que en turno minimiza el espacio de la placa de circuito impreso.  La Fundación se asoció con Broadcom para utilizar sus diseños de microprocesador y el procesador de gráficos en el SoC.
 
 ## 1.2 Broadcom
 

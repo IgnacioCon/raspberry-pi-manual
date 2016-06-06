@@ -11,6 +11,29 @@ Raspbian es un sistema operativo libre basado en Debian y optimizado para Raspbe
 
 En la página de descargas existen otros sistemas operativos para Raspberry Pi.  Algunos de estos sistemas fueron creados para cumplir ciertas tareas.  Por ejemplo OpenElec es utilizada como un centro de entretenimiento.  Weather Station es un sistema para crear una estación para vigilar el clima.  Estos son algunos ejemplos de sistemas operativos que la comunidad y otras compañías han desarrollado para Raspberry Pi.
 
+### 2.2.1 Comandos esenciales apt para Raspbian
+Los siguientes comandos son esenciales para poder utilizar el administrador de paquetes “apt” para Raspbian.
+
+* Mostrar todos los paquetes disponibles:
+  *  ``` $ apt-cache pkgnames ```
+* Mostrar paquetes disponibles:
+  *  ``` $ dpkg -l ``` 
+* Mostrar los archivos para un paquete:
+  *  ``` $ dpkg -L apt ```
+* Buscar un paquete: 
+  *  ``` $ apt-cache search nombre_del_paquete ```
+* Instalar un paquete:
+  *  ``` $ sudo apt-get install nombre_del_paquete ```
+    *  **Nota: recuerde que la contraseña es *raspberry* **
+*  Remover un paquete (ingresar los comandos en este orden):
+  *  ``` $ apt-get remove nombre_del_paquete ```
+  *   ```$ apt-get purge nombre_del_paquete ```
+  *   **Nota: Si es que no se permite ingresar los comandos, agregar sudo al principio del comando para ejecutarlo como súper usuario.  **
+* Instalar actualizaciones:
+  *  ``` $ apt-get update ```
+* Actualizar a la versión mas reciente:
+  *  ```$ apt-get upgrade ```
+
 ## 2.3 Cargar un sistema operativo a una tarjeta SD en Windows
 
  

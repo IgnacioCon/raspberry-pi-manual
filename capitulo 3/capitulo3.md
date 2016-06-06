@@ -23,6 +23,12 @@ Un pin GPIO de entrada solo debe experimentar  niveles de voltaje de 0V a 3.3V m
 
 Al utilizar un pin GPIO como salida el usuario debe tener en mente la limitación de corriente.  Raspberry Pi no provee limitación de corriente.  Cuando un pin de salida está en un estado ALTO, como una fuente de voltaje, trata de suministrar 3.3 V (dentro los límites de un transistor).  Si la salida está conectada a la tierra, en el peor de los casos, entonces toda la corriente que se puede suministrar fluirá. Esto causara daño permanente.
 
+
+![figura3.2](images/gpio-model-b.jpg)
+![figura3.3](images/gpio-model-a-b.jpg)
+![](images/gpio-model-a-b-2.jpg)
+
+
 ## Configuración GPIO
 Para poder utilizar la los pines GPIO se tiene que descargar la biblioteca GPIO de Python.  La biblioteca RPi.GPIO de Python permite crear y configurar con facilidad un script para poder leer-escribir a los pines de entrada o salida de la cabecera GPIO.  Hay varias bibliotecas disponibles pero se recomienda utilizar la biblioteca que se encuentra en el sitio https://pypi.python.org/pypi/RPi.GPIO. Al tiempo de escritura la versión actual de la biblioteca es la 0.6.2. Hay diferentes formas de hacerlo aquí se demostrara una de ellas. 
 

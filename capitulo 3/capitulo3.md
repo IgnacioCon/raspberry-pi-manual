@@ -1,4 +1,4 @@
-# Capitulo 3: GPIO
+# Capítulo 3: GPIO
 
 ## 3.1 Entradas/Salidas de Propósito General
 

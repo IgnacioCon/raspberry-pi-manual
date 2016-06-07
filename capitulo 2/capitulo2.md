@@ -1,4 +1,4 @@
-# Capitulo 2: Raspberry Pi y sus sistemas operativos
+# Capítulo 2: Raspberry Pi y sus sistemas operativos
 
 
 ## 2.1 Linux

@@ -42,9 +42,9 @@ Esto nos permite referirnos al módulo con solo escribir GPIO y no todo el nombr
 Lo siguiente es especificar en qué modo de operación se usara el módulo GPIO.  Se tiene que tener en cuenta que la Raspberry Pi y el CPU tienen diferentes números de pines.  Es por eso que es muy importante designar que modo se usara. Existen dos modos de operación.  El modo BOARD, que utiliza el sistema de numeración de pines de la Raspberry Pi. El modo BCM que utiliza el sistema de numeración del CPU.  En nuestro código es donde especificamos que modo se va a usar simplemente con escribir:
 
 ```python
-GPIO.setmode(GPIO.BOARD) # para usar numeracion Raspberry Pi
+GPIO.setmode(GPIO.BOARD) # para usar numeración Raspberry Pi
   # o
-GPIO.setmode(GPIO.BCM)   # para usar numeracion CPU
+GPIO.setmode(GPIO.BCM)   # para usar numeración CPU
 ```
 
 

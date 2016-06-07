@@ -1,4 +1,4 @@
-# Capitulo 1: Introducción
+# Capítulo 1: Introducción
 
 ## 1.1 Proyecto Raspberry Pi
 En el año 2006 el Dr. Eben Upton hizo una observación acerca de los estudiantes que ingresaban a la carrera de ciencias de la computación, con cada generación nueva el conocimiento sobre temas de computación disminuía.  El llego a la conclusión que esto podría ser por el alto costo de las computadoras.  Así que junto con sus colegas en el Laboratorio de Computo de la Universidad de Cambridge en Cambridge, Inglaterra crearon la Fundación Raspberry Pi (The Raspberry Pi Foundation, www.raspberrypi.org).  El propósito principal de la fundación fue crear una computadora barata a la que personas de bajos recursos pudieran tener acceso.  Ellos creían que el alto costo de las computadoras era un impedimento para que los padres les pudieran comprar una y así aprender.  Eliminando el alto costo lograría que los estudiantes lograran tener una computadora con cual experimentar, crear y aprender a programar sin la preocupación de arruinar una computadora de alto precio.  

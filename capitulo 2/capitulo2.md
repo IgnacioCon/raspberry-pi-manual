@@ -172,3 +172,8 @@ En esta pestaña se pueden configurar los siguientes atributos:
   * Para que el teclado utilizado funcione correctamente.
 * WiFi Country
   * Seleccionar el país donde se reside para poder acceder a WiFi.
+
+
+## 2.6 Resumen
+En este capítulo se explica el sistema operativo de la Raspberry Pi y como es que utiliza una tarjeta SD/Micro SD como disco duro para cargarlo y guardar información.  Se muestra como se graba una imagen de un sistema operativo para ser utilizado por la Raspberry Pi.  Raspbian es el sistema operativo derivado de Debian y diseñado para trabajar con la arquitectura Raspberry Pi.   Se muestra dónde es que el usuario puede configurar el sistema operativo a su gusto o necesidad. 
+

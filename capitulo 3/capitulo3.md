@@ -67,3 +67,5 @@ Ahora la biblioteca de GPIO está instalada en Python y puede ser utilizada en u
 Rpi.GPIO as GPIO``` en la cabecera del archivo.  
 
 
+## 3.6 Resumen
+En este capítulo se introducen los pines GPIO el interfaz físico hacia el mundo exterior y la Raspberry Pi.  Se muestra el diseño de los GPIO en las diferentes versiones.  Se explica cómo se puede descargar la biblioteca RPi.GPIO para ser utilizada con Python.  Esta biblioteca permite acceder y configurar los pines GPIO.

@@ -122,3 +122,7 @@ Los proyectos en este manual serán desarrollados con una Raspberry Pi 1 Modelo 
 | Audio | Audio digital via HDMI, Audio analogo via toma de telefono 3.5 mm | igual que la Raspberry Pi 2 |
 | USB 2.0 | 4 | 4 |
 | Tamaño | 85x56mm | 85x56mm |
+
+## 1.7 Resumen
+
+En este capítulo se da una introducción a la arquitectura Raspberry Pi, los diferentes modelos que existen y como es que ha evolucionado desde su primera versión.  En un corto tiempo ha tenido un impacto imprescindible y hasta el momento el proyecto Raspberry Pi sigue avanzando cumpliendo sus objetivos.  
